@@ -3,7 +3,7 @@ The purpose of this repository is to practice NLP-related concepts and models
 
 ## seq2seq.ipynb
 - Encoder/Decoder Machine Translation architecture
-- Attention Model (Ongoing)
+- Attention Model with simple example (Based on Keras)
 
 ## Sentiment_Analysis_v1.ipynb
 - Replicat Sentiment Analysis (Negative/Positive Comments)
