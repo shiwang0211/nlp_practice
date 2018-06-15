@@ -27,13 +27,13 @@ Work through examples with `NLTK` package for text:
 - Preprocessing (tokenize, stop words, stemming, etc)
 - Feature extraction (DTM, TF-IDF)
 
-## Sentiment_Analysis_v1.ipynb
+## 5. Sentiment_Analysis_v1.ipynb
 - Replicate Sentiment Analysis (Negative/Positive Comments)
   - Use pretrained word vectors
   - Methodology: 1) LSTM; 2) CNN 
   - Tool: Tensorflow lower-level API
 
-## Sentiment_Analysis_v2.ipynb
+## 6. Sentiment_Analysis_v2.ipynb
 - Replicate Sentiment Analysis (Negative/Positive Comments)
   - Train word vectors using `word2vec` package
   - Methodology: 1) LSTM; 2) CNN 
