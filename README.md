@@ -18,7 +18,7 @@ The following analysis is performed on the yelp dataset:
     - User-based
     - Item-based
     - Matrix Factorization
-- Natural Language Prossing for review texts
+- Natural Language Processing for review texts
     - Phase model
     - TF-IDF
     - Doc2Vec
