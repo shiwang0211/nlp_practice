@@ -44,6 +44,7 @@ The following analysis is performed on the yelp dataset:
     - Add extra attention mechanism based on Keras layers
 
 ## 4.[Word Embedding.ipynb](https://github.com/shiwang0211/nlp_practice/blob/master/Word_Embedding.ipynb)
+- Implement back-propagation of word vectorization model with `numpy`
 - Build word representation using `Skip-Gram` model (with Tensorflow low-level API)
     - Prepare data batch
     - Define network graph
