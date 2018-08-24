@@ -1,7 +1,7 @@
 # NLP Practice
 The purpose of this repository is to practice NLP-related concepts and models 
 
-## 0. [Concept Notes.ipynb](https://github.com/shiwang0211/nlp_practice/blob/master/Concept%20Notes.ipynb)
+## 1. [Concept Notes.ipynb](https://github.com/shiwang0211/nlp_practice/blob/master/Concept%20Notes.ipynb)
 - Language Modelling
     - N-gram
     - Word2Vec
@@ -9,17 +9,6 @@ The purpose of this repository is to practice NLP-related concepts and models
     - Encoder-Decoder
     - Attention model
 - Coreference Resolution
-
-## 1. [Recommendation_System.ipynb](https://github.com/shiwang0211/nlp_practice/blob/master/Recommender_System.ipynb)
-- Memory-based CF
-    - User-Item Filtering
-    - Item-Item Filtering
-- Model-based CF
-    - Matrix Factorization
-    - Deep Learning
-    - Implementation of deep-learning-based CF with keras
-- Ranking Algorithms
-- Click-Through Rate (*CTR*) model
 
 ## 2. [yelp_nlp.ipynb](https://github.com/shiwang0211/nlp_practice/blob/master/yelp_nlp.ipynb)
 The following analysis is performed on the yelp dataset:
