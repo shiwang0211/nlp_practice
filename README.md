@@ -1,64 +1,108 @@
 # NLP Practice
 The purpose of this repository is to practice NLP-related concepts and models 
 
-## 1. [Concept Notes.ipynb](https://github.com/shiwang0211/nlp_practice/blob/master/Concept%20Notes.ipynb)
+## 1. Concepts and Fundamentals
+### [Concept Notes.ipynb](https://github.com/shiwang0211/nlp_practice/blob/master/Concept√Notes.ipynb)
+- Basics of English Grammar
+    - Context-free Grammer (CFG)
+- Text Normalization
+- Parsing
+    - Syntactic parsing and CKY Algorithm
+    - Statistical parsing and Probabilistic CFG
+    - Dependency Parsing
+- Word Vectorization
+    - Bag-of-Word and TF-IDF
+    - Word-Embedding and Word2Vec
 - Language Modelling
-    - N-gram
-    - Word2Vec
+    - N-gram Model
+    - Neural Network Models
+- Part-of-Speeh (PoS) Tagging 
+    - Hidden-Markov-Model (HMM)
+    - Maximum Entropy Markov-Model (MEMM)
+- Named Entity Recognition
+- Sentiment Analysis
+- Word Sense Disambiguity
 - Machine Translation
     - Encoder-Decoder
-    - Attention model
+    - Attention model (Luong attention, Bahdanau Attention)
+- Question Answering Model
 - Coreference Resolution
 
-## 2. [yelp_nlp.ipynb](https://github.com/shiwang0211/nlp_practice/blob/master/yelp_nlp.ipynb)
-The following analysis is performed on the yelp dataset:
-- Data preprocessing from raw json files
-- Collaborative-Filtering with ratings
-    - User-based
-    - Item-based
-    - Matrix Factorization
-- Natural Language Processing for review texts
-    - Token filtering
-    - Phase model
-    - TF-IDF
-    - Doc2Vec
-- Content-based Filtering
-    - User and Item profile
-- Topic Modelling with `gensim`
-- Sentiment Analysis with LSTM
 
-## 3. [seq2seq.ipynb](https://github.com/shiwang0211/nlp_practice/blob/master/seq2seq.ipynb)
-- Encoder/Decoder Machine Translation architecture with a character-level translation model (implemented with Keras)
-- Develop attention model with a synthetic example 
-    - Add extra attention mechanism based on Keras layers
-
-## 4.[Word Embedding.ipynb](https://github.com/shiwang0211/nlp_practice/blob/master/Word_Embedding.ipynb)
+## 2. Model Applications
+### [Word Embedding.ipynb](Word_Embedding.ipynb)
 - Implement back-propagation of word vectorization model with `numpy`
-- Build word representation using `Skip-Gram` model (with Tensorflow low-level API)
-    - Prepare data batch
-    - Define network graph
-- Use off-the-shelf `Word2Vec` package to train model
+    - Calculation of probability
+    - Define loss function
+    - Calculation of gradients and Update rules
+    - Validation of model using a simple example
+- Implemented the **Skip-Gram** model with **Tensorflow** low-level API
+- Applied off-the-shelf `Word2Vec` package to train model and generate word embeddings
 
-## 5. [nltk_learn.ipynb](https://github.com/shiwang0211/nlp_practice/blob/master/nltk_learn.ipynb)
-Work through examples with `NLTK` package for text:
-- Preprocessing (tokenize, stop words, stemming, etc)
-- Feature extraction (DTM, TF-IDF)
 
-## 6. [spacy_learn.ipynb](https://github.com/shiwang0211/nlp_practice/blob/master/spacy_learn.ipynb)
-Work through examples with `spacy` package for text:
-- Dependency-parsing, similarity, tokenizer, etc.
-- Named Entity Recognition
-- Vocab, Hash, Lexeme
+### [Topic Modelling.ipynb](Topic%20Modelling.ipynb)
+- Review of the maths behind Latent Dirichlet Allocation (LDA)\
+- Implementation using `sklearn`
 
-## 7. [Sentiment_Analysis_v1.ipynb](https://github.com/shiwang0211/nlp_practice/blob/master/Sentiment_Analysis_v1.ipynb)
+
+### [Sentiment_Analysis_v1.ipynb](Sentiment_Analysis_v1.ipynb)
 - Replicate Sentiment Analysis (Negative/Positive Comments)
   - Use pretrained word vectors
   - Methodology: 1) LSTM; 2) CNN 
   - Tool: Tensorflow lower-level API
 
-## 8. [Sentiment_Analysis_v2.ipynb](https://github.com/shiwang0211/nlp_practice/blob/master/Sentiment_Analysis_v2.ipynb)
+### [Sentiment_Analysis_v2.ipynb](Sentiment_Analysis_v2.ipynb)
 - Replicate Sentiment Analysis (Negative/Positive Comments)
   - Train word vectors using `word2vec` package
   - Methodology: 1) LSTM; 2) CNN 
   - Tool: Keras with Tensorflow Backend
+
+### [seq2seq.ipynb](seq2seq.ipynb)
+- Imeplemented a character-level translation model with Encoder/Decoder Machine Translation architecture (with Keras)
+    - Encoder Network (1-direction LSTM) 
+    - Decoder Network (1-direction LSTM) - Teacher Forcing & Sampling
+- Implemented a Encoder/Decoder model with attention
+    - Added extra Luong attention mechanism on top of Encoder/Decoder model
+    
+    
+### [yelp_nlp.ipynb](yelp_nlp.ipynb)
+The following analysis is performed on the yelp dataset published at: https://www.yelp.com/dataset/challenge:
+- Data preprocessing from raw json files
+- Application of Phrase Model
+- Natural Language Processing for review texts
+    - Token filtering
+    - Phase model
+    - TF-IDF
+    - Doc2Vec
+- Collaborative-Filtering with ratings
+    - User-based
+    - Item-based
+    - Matrix Factorization
+- Content-based Filtering
+    - Define Business Profile based on rating-weighted embedded review text
+    - Define User Profile based on Business Profiles
+    - Generate recommendation based on cosine-similarity
+- Topic Modeling and Latent Dirichlet Allocation (LDA) implemented with **gensim**
+- Sentiment Analysis with LSTM model implemented with **Tensorflow** and **Keras**
+
+## 3. Popular Packages]
+### [Chinese_nlp.ipynb](Chinese_nlp.ipynb)
+Work through examples with `jieba` package for text:
+- Jiaba word parsing, keyword extraction, PoS Tagging
+- Text classification using LSTM model for a Chinese NLP problem
+
+### [nltk_learn.ipynb](nltk_learn.ipynb)
+Work through examples with `NLTK` package for text:
+- Preprocessing (tokenize, stop words, stemming, etc)
+- Feature extraction (DTM, TF-IDF)
+- Text classification, and `scikit learn`
+- PoS Tagging
+
+### [spacy_learn.ipynb](spacy_learn.ipynb)
+Work through examples with `spacy` package for text:
+- Dependency-parsing, similarity, tokenizer, etc.
+- Named Entity Recognition
+- Vocab, Hash, Lexeme
+
+
 
