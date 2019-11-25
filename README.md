@@ -24,8 +24,8 @@ The purpose of this repository is to practice NLP-related concepts and models
 - Word Sense Disambiguity
 - Machine Translation
     - Encoder-Decoder
-    - Attention model (Luong attention, Bahdanau Attention)
-- Question Answering Model
+    - Attention model
+    - BERT
 - Coreference Resolution
 
 
@@ -85,7 +85,7 @@ The following analysis is performed on the yelp dataset published at: https://ww
 - Topic Modeling and Latent Dirichlet Allocation (LDA) implemented with **gensim**
 - Sentiment Analysis with LSTM model implemented with **Tensorflow** and **Keras**
 
-## 3. Popular Packages]
+## 3. Popular Packages
 ### [Chinese_nlp.ipynb](Chinese_nlp.ipynb)
 Work through examples with `jieba` package for text:
 - Jiaba word parsing, keyword extraction, PoS Tagging
