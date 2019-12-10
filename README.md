@@ -105,7 +105,7 @@ Work through examples with `spacy` package for text:
 - Named Entity Recognition
 - Vocab, Hash, Lexeme
 
-### [Learn BERT.ipynb](Learn%20 BERT.ipynb)
+### [Learn BERT.ipynb](Learn%20BERT.ipynb)
 Work through examples with BERT in `transformers` package.
 - Learn BERT basics 
 - Apply Pre-trained BERT model
