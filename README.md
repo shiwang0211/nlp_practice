@@ -25,6 +25,7 @@ The purpose of this repository is to practice NLP-related concepts and models
 - Machine Translation
     - Encoder-Decoder
     - Attention model
+    - Transformer
     - BERT
 - Coreference Resolution
 
@@ -104,5 +105,10 @@ Work through examples with `spacy` package for text:
 - Named Entity Recognition
 - Vocab, Hash, Lexeme
 
+### [Learn BERT.ipynb](Learn%20 BERT.ipynb)
+Work through examples with BERT in `transformers` package.
+- Learn BERT basics 
+- Apply Pre-trained BERT model
+- Fine tune models for sequence classification tasks
 
 
